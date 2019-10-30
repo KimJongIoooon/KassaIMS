@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Kassa
 {
-    public partial class Form1 : Form
+    public partial class Kassa : Form
     {
-        public Form1()
+        public Kassa()
         {
             InitializeComponent();
+            TotaalBedrag.Text = "Test";
         }
+
     }
 }
