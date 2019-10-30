@@ -140,6 +140,7 @@
             this.ProductNrTextBox.Name = "ProductNrTextBox";
             this.ProductNrTextBox.Size = new System.Drawing.Size(551, 116);
             this.ProductNrTextBox.TabIndex = 7;
+            this.ProductNrTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // ProductNrLabel
             // 
@@ -168,6 +169,7 @@
             this.AantalTextbox.Name = "AantalTextbox";
             this.AantalTextbox.Size = new System.Drawing.Size(275, 116);
             this.AantalTextbox.TabIndex = 10;
+            this.AantalTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // AantalLabel
             // 
@@ -292,6 +294,7 @@
             // EnterButton
             // 
             this.EnterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EnterButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.EnterButton.Location = new System.Drawing.Point(569, 609);
             this.EnterButton.Name = "EnterButton";
             this.EnterButton.Size = new System.Drawing.Size(272, 133);
@@ -312,6 +315,7 @@
             // CorrectionButton
             // 
             this.CorrectionButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CorrectionButton.ForeColor = System.Drawing.Color.Red;
             this.CorrectionButton.Location = new System.Drawing.Point(12, 609);
             this.CorrectionButton.Name = "CorrectionButton";
             this.CorrectionButton.Size = new System.Drawing.Size(272, 133);
@@ -323,6 +327,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1264, 985);
             this.Controls.Add(this.EnterButton);
             this.Controls.Add(this.button0);
@@ -351,6 +356,8 @@
             this.Controls.Add(this.Totaal);
             this.Controls.Add(this.Bon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Kassa";
             this.Text = "IMS Kassa";
             this.ResumeLayout(false);

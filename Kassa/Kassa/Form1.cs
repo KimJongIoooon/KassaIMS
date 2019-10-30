@@ -15,7 +15,7 @@ namespace Kassa
         public Kassa()
         {
             InitializeComponent();
-            TotaalBedrag.Text = "Test";
+            TotaalBedrag.Text = "€2525,68";
         }
 
     }
