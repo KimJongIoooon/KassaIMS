@@ -18,5 +18,12 @@ namespace Kassa
             TotaalBedrag.Text = "€2525,68";
         }
 
+        private void ProductNrTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                MessageBox.Show("Enter Key Pressed ");
+            }
+        }
     }
 }

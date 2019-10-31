@@ -141,6 +141,7 @@
             this.ProductNrTextBox.Size = new System.Drawing.Size(551, 116);
             this.ProductNrTextBox.TabIndex = 7;
             this.ProductNrTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ProductNrTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ProductNrTextBox_KeyPress);
             // 
             // ProductNrLabel
             // 
